@@ -13,8 +13,8 @@ class WelcomePage extends Page {
     }
 
     MainPage login() {
-        username = "eduards.sizovs@gmail.com"         // andrejsd@latcraft.lv
-        password = "qwerty123"                       // andrejsddd
+        username =  ""
+        password = ""
         loginButton.click()
         browser.at MainPage
     }
