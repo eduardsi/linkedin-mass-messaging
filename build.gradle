@@ -1,0 +1,14 @@
+apply plugin: 'groovy'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    compile 'org.gebish:geb-core:0.13.1'
+    compile 'org.seleniumhq.selenium:selenium-chrome-driver:2.52.0'
+    compile 'org.seleniumhq.selenium:selenium-support:2.52.0'
+    compile ''
+    compile 'org.jodd:jodd-lagarto:3.6.7'
+}
